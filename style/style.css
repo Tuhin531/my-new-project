@@ -133,5 +133,46 @@
     background-color: #FFF4D6;
 }
 
+.depend-section{
+    display: flex;
+    margin: 70px;
+    gap: 80px;
+    
+
+}
+.depend-section .depend-photo{
+   
+    background-repeat: no-repeat;
+    background-position:bottom right , left ;
+    
+}
+.depend-title{
+    font-weight: 800px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #121212;
+
+}
+
+.depend-description{
+    color: #707070;
+    margin-bottom: 20px;
+
+}
+ .depend-extra-description{
+    color: #707070;
+    margin-bottom: 20px;
+}
+.depend-section .btn-primary{
+     margin-left: 130px;
+     margin-top: 30px;
+    
+}
+
+
+
+
+
 
     
