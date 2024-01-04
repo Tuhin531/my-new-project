@@ -66,8 +66,10 @@
 .donate-data{
     display: flex;
     justify-content: space-between;
-    padding: 20px 300px;
-    gap:24px;
+        
+      
+    
+   
 
 }
 
@@ -218,4 +220,126 @@
 .footer-section .footer-description{
     color: #fff8f3;
     padding-bottom: 20px;
+}
+/* Responsive section */
+@media screen and (max-width: 567px) {
+
+    .donate-data{
+        flex-direction: column;
+        text-align: center;
+
+        /* justify-content: space-between;
+        padding: 20px 300px;
+        gap:24px;
+     */
+    }
+    .donate-data .amount-first {
+       
+       
+        margin: 0px 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+
+    }
+    .donate-data .amount-second{
+        margin: 0px 20px;
+        margin-top: 10px;
+
+    }
+
+    .information-section{
+       
+        margin: 10px 10px;
+        padding: 20px 20px;
+        
+    }
+    .depend-section{
+        flex-direction: column;
+        /* margin: 70px;
+        gap: 80px; */
+        
+    
+    }
+    .depend-photo{
+     display: none;
+    }
+    .depend-section .btn-primary{
+        margin-left: 30px;
+        padding: 10px;
+       
+   }
+
+   .depend-title{
+       text-align: center;
+   }
+   .depend-description{
+     text-align: center;
+   }
+
+    
+
+}
+
+@media screen and (min-width: 577px) and (max-width:992px) {
+
+
+    .donate-data{
+
+        /* padding: 20px 300px;
+        gap:24px;  */
+        text-align: center;
+        margin: 0px 20px;
+    }
+    .primary-data .donate-description{
+       
+        font-size: 12px;
+         
+    }
+
+    .information-section{
+       
+        margin: 10px 10px;
+        padding: 20px 20px;
+        
+    }
+
+    .depend-photo{
+        width: 100%;
+       }
+       .depend-section{
+        
+        width: 100%;
+        margin-left: 10px;
+       }
+       .depend-title{
+        text-align: center;
+        padding-right: 20px;
+    }
+    .depend-description{
+      text-align: center;
+      padding-right: 20px;
+    }
+    .depend-section .btn-primary{
+        margin-left: 40px;
+        padding: 10px;
+       
+   }
+    
+}
+
+
+@media screen and (min-width: 993px) {
+
+    .donate-data {
+        padding: 20px 300px;
+        gap:24px; 
+         
+
+    }
+
+}
+
+.hide{
+    display: none;
+
 }
